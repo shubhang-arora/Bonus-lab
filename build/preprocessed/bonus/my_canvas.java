@@ -19,7 +19,7 @@ public class my_canvas extends Canvas{
       Image image = Image.createImage("/new1.png");
       g.drawImage(image, width/2, height/2, Graphics.VCENTER | Graphics.HCENTER);
        g.setColor(255, 255, 255);
-        g.drawString("Shubhang", (getWidth()/2)+10,(getHeight()/2)-8,
+        g.drawString("Sahil", (getWidth()/2)+10,(getHeight()/2)-8,
                 Graphics.TOP | Graphics.RIGHT);
     } catch (IOException ex) {
       g.setColor(0xffffff);
